@@ -1,7 +1,7 @@
 {
-	"name": "AdalabWebStarterKit",
+	"name": "Adevinta Frontend",
 	"version": "2.0.2",
-	"description": "Adalab web starter kit",
+	"description": "Accordion Challenge",
 	"dependencies": {
 		"browser-sync": "^2.26.3",
 		"del": "^3.0.0",
