@@ -1,24 +1,37 @@
 body {
-  font-family: Arial;
+  font-family: monospace;
+  background: -webkit-linear-gradient(left, #6c73b3 0%, #a8d2f8 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
+
+.accordion {
+  width: 450px;
+  margin-top: 200px;
+}
+
 .js-collapsible {
   &-trigger {
     cursor: pointer;
     transition: background-color ease 0.5s;
-    padding: 10px;
+    padding: 5px;
     :hover {
       background-color: rgba(0, 0, 0, 0.2);
     }
   }
 
   &-section {
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    margin-bottom: 1em;
-    padding: 10px;
-    margin: 0;
     position: relative;
-    padding-right: 30px;
-    font-size: inherit;
+    height: 30px;
+    background-color: rgba(199, 65, 65, 0.55);
+    color: #fefefe;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
   }
 
   &-section::after {
@@ -31,7 +44,7 @@ body {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: rgb(221, 55, 88);
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +57,14 @@ body {
     margin-top: 1em;
     display: none;
     padding: 10px;
+    background: white;
+    margin: 5px 0 0 0;
+    border-radius: 4px;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
