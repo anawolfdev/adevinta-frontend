@@ -4,7 +4,7 @@
 
 ## Instructions
 
-Create an accordion (JS / CSS) show only the contents of a section at a time. More details [here](https://github.com/scm-spain/Frontend-Exercise)
+Create an accordion (JS / CSS) show only the contents of a section at a time. More details: (https://github.com/scm-spain/Frontend-Exercise).
 
 ## Requirements
 
