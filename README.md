@@ -6,6 +6,10 @@
 
 Create an accordion (JS / CSS) show only the contents of a section at a time. More details: (https://github.com/scm-spain/Frontend-Exercise).
 
+## My 1.0.0 Accordion
+
+![Accordion](_src/assets/images/accordion-adevinta.png)
+
 ## Requirements
 
 You have to install [Node.js](https://nodejs.org/) & [Gulp](https://gulpjs.com)
