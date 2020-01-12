@@ -4,7 +4,6 @@
 
 ## Instructions
 
---
 With the next markup, you must create an accordion (JS / CSS) show only the contents of a section at a time. Sure to follow the SUIT convention when working with CSS.
 
 ```
@@ -99,10 +98,9 @@ npm run push-docs
 
 ```
 
-### HTML
+## Development with:
 
-### Images & icons
-
-### CSS
-
-### JS
+- HTML
+- Sass
+- JavaScript
+- Gulp task automation
