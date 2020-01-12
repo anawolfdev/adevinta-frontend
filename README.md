@@ -17,13 +17,13 @@ You have to install [Node.js](https://nodejs.org/) & [Gulp](https://gulpjs.com)
 npm start
 ```
 
-or
+or in the project:
 
 ```
 gulp
 ```
 
-Launch a webserver with BrowserSync & some watchers are waiting for the files SCSS/JS/HMTL, in the folder **public/** , for update the browser when you want.
+Launch a webserver with BrowserSync & some watchers are waiting for the files SCSS/JS/HMTL, in the folder **public/**, for update the browser when you want.
 
 ### Ready version for upload to production
 
@@ -33,7 +33,7 @@ For generate the foldes for production, you have to do this:
 npm run docs
 ```
 
-or in this project:
+or in the project:
 
 ```
 gulp docs
@@ -66,10 +66,10 @@ npm run push-docs
 
 ```
 
-## HTML
+### HTML
 
-## Images & icons
+### Images & icons
 
-## CSS
+### CSS
 
-## JS
+### JS

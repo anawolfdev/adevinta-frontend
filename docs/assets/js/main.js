@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";const collapsibleTrigger=document.querySelectorAll(".js-collapsible-trigger");function updateCollapsible(e){const l=e.currentTarget.parentElement;if(l.classList.contains("collapsible-open"))l.classList.remove("collapsible-open");else{for(const e of collapsibleTrigger)e.parentElement.classList.remove("collapsible-open");l.classList.add("collapsible-open")}}for(const e of collapsibleTrigger)e.addEventListener("click",updateCollapsible);
