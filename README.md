@@ -98,7 +98,7 @@ npm run push-docs
 
 ```
 
-## Development with:
+## Developed with:
 
 - HTML
 - Sass
