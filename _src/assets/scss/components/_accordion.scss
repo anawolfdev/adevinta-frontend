@@ -1,3 +1,5 @@
+@import "../core/settings";
+
 body {
   font-family: monospace;
   background: -webkit-linear-gradient(left, #6c73b3 0%, #a8d2f8 100%);
@@ -25,7 +27,7 @@ body {
     position: relative;
     height: 30px;
     background-color: rgba(199, 65, 65, 0.55);
-    color: #fefefe;
+    color: $color-white;
     letter-spacing: 1px;
     text-align: center;
     line-height: 2;
@@ -44,7 +46,7 @@ body {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: black;
+    background: $color-black;
     display: flex;
     justify-content: center;
     align-items: center;
