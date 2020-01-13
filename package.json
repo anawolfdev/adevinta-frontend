@@ -6,7 +6,6 @@
 		"del": "^3.0.0",
 		"eslint": "^4.19.1",
 		"gulp": "^4.0.2",
-		"gulp-autoprefixer": "^7.0.1",
 		"gulp-clean-css": "*",
 		"gulp-html-partial": "^1.0.1",
 		"gulp-rename": "*",
@@ -28,6 +27,7 @@
 	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit",
 	"devDependencies": {
 		"browser-sync": "^2.26.7",
+		"gulp-autoprefixer": "^7.0.1",
 		"gulp-combine-mq": "^0.4.0",
 		"gulp-concat": "^2.6.1",
 		"gulp-notify": "^3.2.0",
