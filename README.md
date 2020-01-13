@@ -35,7 +35,7 @@ Launch a webserver with BrowserSync & some watchers are waiting for the files SC
 
 ### Ready version for upload to production
 
-For generate the foldes for production, you have to do this:
+For generate the folders for production, you have to do this:
 
 ```
 npm run docs
