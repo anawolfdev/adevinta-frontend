@@ -15,12 +15,8 @@ body {
 
 .js-collapsible {
   &-trigger {
-    cursor: pointer;
     transition: background-color ease 0.5s;
     padding: 5px;
-    :hover {
-      background-color: rgba(0, 0, 0, 0.2);
-    }
   }
 
   &-section {
@@ -68,6 +64,13 @@ body {
     justify-content: center;
     align-items: center;
   }
+}
+
+.js-collapsible-section {
+  cursor: pointer;
+}
+.js-collapsible-section:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .collapsible-open .js-collapsible-section::after {
